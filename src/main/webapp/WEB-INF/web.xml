@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Add_job_Servlet</servlet-name>
+  	<display-name>Add_job_Servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Controller.Add_job_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Update_job_servlet</servlet-name>
+  	<display-name>Update_job_servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Controller.Update_job_servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Delete_job_servlet</servlet-name>
+  	<display-name>Delete_job_servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Controller.Delete_job_servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>User_Register</servlet-name>
+  	<display-name>User_Register</display-name>
+  	<description></description>
+  	<servlet-class>com.Controller.User_Register</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Controller.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Update_profile_Servlet</servlet-name>
+  	<display-name>Update_profile_Servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Controller.Update_profile_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Add_job_Servlet</servlet-name>
+  	<url-pattern>/Add_job_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Update_job_servlet</servlet-name>
+  	<url-pattern>/Update_job_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Delete_job_servlet</servlet-name>
+  	<url-pattern>/Delete_job_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>User_Register</servlet-name>
+  	<url-pattern>/User_Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Update_profile_Servlet</servlet-name>
+  	<url-pattern>/Update_profile_Servlet</url-pattern>
+  </servlet-mapping>
+</web-app>
